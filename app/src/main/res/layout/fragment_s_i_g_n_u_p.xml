@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#93E1D8"
+    android:layout_height="match_parent"
+    tools:context=".SIGNUP">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/Mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:translationY="-175dp"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:background="@drawable/back"
+        android:hint="Enter Email"
+        android:padding="5dp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/sigpass1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="bold"
+        android:hint="Enter password"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/back"
+        android:padding="5dp"
+        android:translationY="-125dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/sigpass2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="bold"
+        android:hint="Re-enter Password"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/back"
+        android:padding="5dp"
+        android:translationY="-75dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/SignButton"
+        android:background="@drawable/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Signup" />
+
+
+</FrameLayout>

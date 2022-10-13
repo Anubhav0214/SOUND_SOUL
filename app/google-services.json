@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "782922672254",
+    "project_id": "sound-soul",
+    "storage_bucket": "sound-soul.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782922672254:android:88d3f0d62da20f0f6f102f",
+        "android_client_info": {
+          "package_name": "com.example.sound_soul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782922672254-34e56umrlgk69dv2cr7s6q52e8nhh6eq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo7aMGyz2LpD0HBmi6mDmtAGwCaQwYrhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782922672254-34e56umrlgk69dv2cr7s6q52e8nhh6eq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

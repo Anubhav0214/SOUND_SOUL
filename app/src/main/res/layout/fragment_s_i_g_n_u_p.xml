@@ -58,10 +58,4 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Signup" />
-    <TextView
-         android:id = "@+id/aisehi"
-         android:text = "Aise hi"
-         android:textstyle = "bold"/>
-
-
 </FrameLayout>
